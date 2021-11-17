@@ -1,18 +1,18 @@
 urg_node:
   ros__parameters:
-    angle_max: 1.4
-    angle_min: -1.4
+    angle_max: 1.45
+    angle_min: -1.37
     ip_port: 10940
     serial_port: "/dev/ttyACM0"
     serial_baud: 115200
     laser_frame_id: "laser"
-    calibrate_time: false
+    calibrate_time: true
     default_user_latency: 0.0
-    diagnostics_tolerance: 0.05
+    diagnostics_tolerance: 0.01
     diagnostics_window_time: 5.0
-    error_limit: 4
+    error_limit: 5
     get_detailed_status: false
     publish_intensity: false
     publish_multiecho: false
     cluster: 1
-    skip: 0
+    skip: 1
